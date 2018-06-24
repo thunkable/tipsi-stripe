@@ -365,4 +365,8 @@ public class StripeModule extends ReactContextBaseJavaModule {
     }.execute();
   }
 
+  @Override
+  public boolean canOverrideExistingModule() {
+    return true;
+  }
 }
